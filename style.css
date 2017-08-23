@@ -1,0 +1,27 @@
+body {
+  background-image: url("https://dl.dropboxusercontent.com/s/e3lylavyfm1zlo9/1280x720-data-out-72-4545918-background-image.jpg?dl=0");
+
+}
+
+footer {
+  color: white;
+  background-color: black;
+}
+
+#cardDisplay {
+  margin: 20px auto;
+}
+
+#cardWeather {
+  margin: 40px auto;
+  max-width: 60%;
+}
+
+.btnCenter {
+  text-align: center;
+  margin: 15px 0px 40px 0px;
+}
+
+#getWeather {
+  top: 45%;
+}
