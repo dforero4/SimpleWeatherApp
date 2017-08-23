@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>What's the Weather like?</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Abril+Fatface'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="cardDisplay" style="display:none;">
+  <div class="card text-center" id="cardWeather">
+    <h1 class="card-header" id="location">
+    </h1>
+    <img class="card-img-top" style="width: 200px; height: 200px; margin:auto; margin-top:15px;" id="icon">
+    <div class="card-block">
+      <h3 class="card-title" id="temp">
+      </h3>
+      <h4 class="card_title" id="temp2"></h4>
+      <div class="btn-group btn-group-sm" style="margin:5px auto;" role="group">
+        <button class="btn btn-secondary" id="fahren">°F</button>
+        <button class="btn btn-secondary" id="celsius">°C</button>
+    </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" id="humidity"></li>
+        <li class="list-group-item" id="precipProb"></li>
+        <li class="list-group-item" id="windSpeed"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="btnCenter">
+    <button onclick="getWeather()" class="btn btn-primary" id="getWeather">Get the weather NOW!</button>
+</div>
+  <footer class="fixed-bottom text-center">Powered by <a href="https://darksky.net/dev/">Dark Sky</a></footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
